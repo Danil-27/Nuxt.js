@@ -1,4 +1,6 @@
-<template></template>
+<template>
+	<div>index pages</div>
+</template>
 
 <script setup></script>
 
