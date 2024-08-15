@@ -1,14 +1,13 @@
 <template>
-	<div class="page">index page</div>
+	<div>local page</div>
 </template>
 
 <script setup></script>
 
 <style lang="scss" scoped>
 .page {
-	background-color: #41bf43;
+	background-color: #bf41a6;
 	padding: 20px;
 	text-align: center;
-	margin: 10px;
 }
 </style>
