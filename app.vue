@@ -37,12 +37,12 @@
 			<ButtomMainButton></ButtomMainButton>
 		</div>
 	</div> -->
-	<!-- 
+
 	<div class="flex gap-5 my-5 p-3 bg-green-300">
 		<nuxt-link class="link" to="/">/111111111111</nuxt-link>
 		<nuxt-link class="link" to="/home">home</nuxt-link>
 		<nuxt-link class="link" to="/about">about</nuxt-link>
-	</div> -->
+	</div>
 	<TabsMain :tabs="tabs" :selectedTad="selectedTad" @selectedTad="updateTab">
 		<template #content>
 			<div class="text-white" v-if="selectedTad === 'All'">

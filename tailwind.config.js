@@ -17,7 +17,7 @@ export default {
 			},
 			colors: {
 				main: 'var(--nain)',
-				mainHover: 'var(--hover)',
+				additional: 'var(--additional)',
 				dark: 'var(--dark)',
 				darkGrey: 'var(--dark-grey)',
 				grey: 'var(--grey)',
