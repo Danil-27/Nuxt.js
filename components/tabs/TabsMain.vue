@@ -5,7 +5,7 @@
 			:key="tab.id"
 			@click="handleClick(tab.content)"
 			:class="[
-				'font-geistMono py-[8px] px-[12px]  uppercase transition duration-300 ease-in-out border-[1px] border-main',
+				' py-[8px] px-[12px]  uppercase transition duration-300 ease-in-out border-[1px] border-main',
 				tab.content === localSelectedTad ? 'bg-main text-dark' : 'bg-transparent text-main',
 			]">
 			{{ tab.content }}

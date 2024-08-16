@@ -1,21 +1,44 @@
 @font-face {
   font-family: 'geistMono';
   src: url('~/assets/fonts/geist-mono/GeistMono-Regular.woff2') format('woff2'),
-    url('~/assets/fonts/geist-mono/GeistMono-Regular.woff') format('woff');
+    url('~/assets/fonts/geist-mono/GeistMono-Regular.woff') format('woff'),
+    url('~/assets/fonts/geist-mono/GeistMono-Regular.ttf') format('ttf'),
+    url('~/assets/fonts/geist-mono/GeistMono-Regular.otf') format('otf');
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'geistMedium';
+  src: url('~/assets/fonts/geist/Geist-Medium.woff2') format('woff2'),
+    url('~/assets/fonts/geist/Geist-Medium.woff') format('woff'),
+    url('~/assets/fonts/geist/Geist-Medium.ttf') format('ttf'),
+    url('~/assets/fonts/geist/Geist-Medium.otf') format('otf');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'geistRegular';
+  src: url('~/assets/fonts/geist/Geist-Regular.woff2') format('woff2'),
+    url('~/assets/fonts/geist/Geist-Regular.woff') format('woff'),
+    url('~/assets/fonts/geist/Geist-Regular.ttf') format('ttf'),
+    url('~/assets/fonts/geist/Geist-Regular.otf') format('otf');
+  font-style: normal;
+}
 
 @font-face {
   font-family: 'geistSemiBold';
   src: url('~/assets/fonts/geist/Geist-SemiBold.woff2') format('woff2'),
-    url('~/assets/fonts/geist/Geist-SemiBold.woff') format('woff');
+    url('~/assets/fonts/geist/Geist-SemiBold.woff') format('woff'),
+    url('~/assets/fonts/geist/Geist-SemiBold.ttf') format('ttf'),
+    url('~/assets/fonts/geist/Geist-SemiBold.otf') format('otf');
   font-style: normal;
 }
 
 @font-face {
   font-family: 'geistBold';
   src: url('~/assets/fonts/geist/Geist-Bold.woff2') format('woff2'),
-    url('~/assets/fonts/geist/Geist-Bold.woff') format('woff');
+    url('~/assets/fonts/geist/Geist-Bold.woff') format('woff'),
+    url('~/assets/fonts/geist/Geist-Bold.ttf') format('ttf'),
+    url('~/assets/fonts/geist/Geist-Bold.otf') format('otf');
   font-style: normal;
 }
