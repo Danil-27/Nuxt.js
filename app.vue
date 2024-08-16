@@ -1,6 +1,5 @@
 <template>
 	<NuxtPage />
-
 	<!-- <div class="flex justify-center">
 		<div class="inline-flex items-center flex-col gap-4">
 			<ButtomAdditionalButton></ButtomAdditionalButton>
@@ -37,8 +36,7 @@
 			<ButtomMainButton></ButtomMainButton>
 		</div>
 	</div> -->
-
-	<div class="flex gap-5 my-5 p-3 bg-green-300">
+	<div class="links flex gap-5 my-5 p-3">
 		<nuxt-link class="link" to="/">/111111111111</nuxt-link>
 		<nuxt-link class="link" to="/home">home</nuxt-link>
 		<nuxt-link class="link" to="/about">about</nuxt-link>
@@ -84,6 +82,10 @@ function updateTab(data) {
 }
 body,
 html {
-	background-color: var(--dark-grey);
+	background-color: var(--darck);
+}
+.block {
+	width: 40px;
+	height: 40px;
 }
 </style>

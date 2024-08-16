@@ -10,6 +10,9 @@ export default {
 	],
 	theme: {
 		extend: {
+			backgroundImage: {
+				'custom-radial': 'radial-gradient(circle, rgba(255, 122, 51, 0.25), rgba(255, 89, 0, 0), transparent 70%)',
+			},
 			fontFamily: {
 				geistMono: '"geistMono", sans-serif',
 				geistSemiBold: '"geistSemiBold", sans-serif',
@@ -30,10 +33,13 @@ export default {
 			},
 			colors: {
 				main: 'var(--nain)',
+				green: 'var(--green)',
+				lightGreen: 'var(--lightGreen)',
 				additional: 'var(--additional)',
 				dark: 'var(--dark)',
+				dark50: 'var(--dark-50)',
 				darkGrey: 'var(--dark-grey)',
-				grey: 'var(--grey)',
+				red: 'var(--red)',
 			},
 		},
 	},

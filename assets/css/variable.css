@@ -1,7 +1,10 @@
 :root {
   --nain: #9FE0C1;
-  --additional: #5BC994;
+  --green: #5BC994;
+  --light-green: #DEFFEF;
+  --Additional: #EDCA5C;
   --dark: #030203;
+  --dark-50: rgba(26, 26, 26, 0.5);
   --dark-grey: #333333;
-  --grey: #1A1A1A (50%);
+  --red: #FF7979;
 }
