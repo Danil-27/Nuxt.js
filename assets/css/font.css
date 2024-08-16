@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'geistMono';
+  src: url('~/assets/fonts/geist-mono/GeistMono-Regular.woff2') format('woff2'),
+    url('~/assets/fonts/geist-mono/GeistMono-Regular.woff') format('woff');
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'geistSemiBold';
+  src: url('~/assets/fonts/geist/Geist-SemiBold.woff2') format('woff2'),
+    url('~/assets/fonts/geist/Geist-SemiBold.woff') format('woff');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'geistBold';
+  src: url('~/assets/fonts/geist/Geist-Bold.woff2') format('woff2'),
+    url('~/assets/fonts/geist/Geist-Bold.woff') format('woff');
+  font-style: normal;
+}
