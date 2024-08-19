@@ -34,7 +34,7 @@ export default {
 			colors: {
 				main: 'var(--nain)',
 				green: 'var(--green)',
-				lightGreen: 'var(--lightGreen)',
+				lightGreen: 'var(--light-green)',
 				additional: 'var(--additional)',
 				dark: 'var(--dark)',
 				dark50: 'var(--dark-50)',
