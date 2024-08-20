@@ -1,12 +1,12 @@
 <template>
 	<div class="text-center">
-		<div class="flex justify-center mb-[16px]">
+		<div class="icon flex justify-center mb-[16px]">
 			<slot name="icon">icon</slot>
 		</div>
-		<h1 class="mb-[16px] text-main text-H1 uppercase">
+		<h1 class="title mb-[16px] text-main text-H1 uppercase">
 			<slot name="title">title</slot>
 		</h1>
-		<p class="text-lightGreen text-lg font-geistMono">
+		<p class="subtitle text-lightGreen text-lg font-geistMono">
 			<slot name="subtitle">subtitle</slot>
 		</p>
 	</div>
