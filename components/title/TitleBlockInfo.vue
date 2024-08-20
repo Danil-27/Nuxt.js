@@ -1,5 +1,5 @@
 <template>
-	<div class="mb-[40px] text-center">
+	<div class="text-center">
 		<div class="flex justify-center mb-[16px]">
 			<slot name="icon">icon</slot>
 		</div>

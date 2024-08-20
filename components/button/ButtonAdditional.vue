@@ -7,7 +7,7 @@
 		<p>
 			<slot name="btnText"> {{ isDisabled ? loading : textMain }}</slot>
 		</p>
-		<slot name="btnIcon">icon</slot>
+		<slot name="btnIcon"></slot>
 	</button>
 </template>
 
